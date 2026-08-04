@@ -1,0 +1,23 @@
+hostname CORE_SW2
+
+
+vlan 10
+name IT
+
+vlan 20
+name HR
+
+interface g0/1
+switchport mode trunk
+
+
+interface range f0/1-10
+switchport mode access
+switchport access vlan 10
+
+
+interface range f0/11-20
+switchport mode access
+switchport access vlan 20
+
+

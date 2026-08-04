@@ -1,0 +1,15 @@
+hostname SERVER
+
+
+vlan 100
+name SERVER
+
+
+interface g0/1
+switchport mode trunk
+
+
+interface range f0/1-10
+switchport mode access
+switchport access vlan 100
+

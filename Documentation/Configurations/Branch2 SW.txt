@@ -1,0 +1,36 @@
+hostname CEBU
+
+
+vlan 10
+name IT
+
+vlan 20
+name HR
+
+vlan 30
+name FINANCE
+
+vlan 20
+name SALES
+
+interface g0/1
+switchport mode trunk
+
+
+interface range f0/1-5
+switchport mode access
+switchport access vlan 10
+
+
+interface range f0/6-10
+switchport mode access
+switchport access vlan 20
+
+interface range f0/11-15
+switchport mode access
+switchport access vlan 30
+
+
+interface range f0/16-20
+switchport mode access
+switchport access vlan 40

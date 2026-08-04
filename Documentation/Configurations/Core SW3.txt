@@ -1,0 +1,21 @@
+hostname CORE_SW3
+
+
+vlan 30
+name FINANCE
+
+vlan 40
+name SALES
+
+interface g0/1
+switchport mode trunk
+
+
+interface range f0/1-10
+switchport mode access
+switchport access vlan 30
+
+
+interface range f0/11-20
+switchport mode access
+switchport access vlan 40

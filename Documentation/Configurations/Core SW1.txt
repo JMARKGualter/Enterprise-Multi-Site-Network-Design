@@ -1,0 +1,12 @@
+hostname Core_SW1
+
+interface GigabitEthernet0/1
+ switchport mode trunk
+
+
+interface GigabitEthernet1/1
+ switchport mode trunk
+
+
+interface GigabitEthernet2/1
+ switchport mode trunk
