@@ -8,6 +8,9 @@ This project demonstrates the design and implementation of a secure enterprise n
 
 ## Network Topology
 
+<img width="1647" height="770" alt="image" src="https://github.com/user-attachments/assets/6d3ffc6f-7c6f-44e6-a764-8baceb8a7852" />
+
+
 - Headquarters (HQ)
 - Batangas Branch
 - Cebu Branch
